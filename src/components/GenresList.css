@@ -1,0 +1,32 @@
+/* GenresList.css */
+
+.genre-card-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.genre-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.genre-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  background: rgba(0, 0, 0, 0.4); /* Fondo semitransparente */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.genre-card-container:hover .genre-title {
+  opacity: 1;
+}

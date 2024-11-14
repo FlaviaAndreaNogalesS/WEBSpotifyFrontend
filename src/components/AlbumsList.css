@@ -1,0 +1,23 @@
+/* AlbumsList.css */
+
+.album-card {
+  border: none;
+  margin-bottom: 20px;
+  max-width: 400px; /* Limita el ancho máximo del álbum */
+  margin: auto; /* Centra la tarjeta */
+}
+
+.album-image {
+  width: 100%;
+  height: 400px; /* Ajusta la altura de la imagen */
+  object-fit: cover; /* Hace que la imagen se ajuste sin deformarse */
+  border-radius: 10px; /* Bordes redondeados para un mejor aspecto */
+}
+
+.list-group-item {
+  background-color: #f8f9fa;
+}
+
+audio {
+  outline: none;
+}
